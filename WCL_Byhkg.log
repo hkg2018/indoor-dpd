@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.9.6)  16 DEC 2019 14:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.9.6)  17 DEC 2019 17:42
 entering extended mode
 **c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/WCL_Byhkg
 (c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/WCL_Byhkg.tex
@@ -276,49 +276,57 @@ Underfull \hbox (badness 3386) in paragraph at lines 38--38
 \OT1/ptm/m/n/8 Sci-ence and Tech-nol-o-gy of Chi-na, Cheng-du, 611731 Chi-na e-mail:
  []
 
-<figures/globalHybridArray.pdf, id=1, 331.05684pt x 166.48398pt>
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+<figures/mmWaveCommunicaitionSystem.pdf, id=1, 215.68079pt x 146.80347pt>
+File: figures/mmWaveCommunicaitionSystem.pdf Graphic file (type pdf)
+ <use figures/mmWaveCommunicaitionSystem.pdf>
+Package pdftex.def Info: figures/mmWaveCommunicaitionSystem.pdf used on input line 64.
+(pdftex.def)             Requested size: 129.0pt x 87.80722pt.
+ <figures/globalHybridArray.pdf, id=2, 342.94626pt x 166.48398pt>
 File: figures/globalHybridArray.pdf Graphic file (type pdf)
  <use figures/globalHybridArray.pdf>
-Package pdftex.def Info: figures/globalHybridArray.pdf used on input line 62.
-(pdftex.def)             Requested size: 258.0pt x 129.75282pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+Package pdftex.def Info: figures/globalHybridArray.pdf used on input line 70.
+(pdftex.def)             Requested size: 258.0pt x 125.2488pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
  ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
  ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1{C:/Program Files (x86)/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 
- <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/globalHybridArray.pdf>]
-Underfull \hbox (badness 1383) in paragraph at lines 167--171
+ <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/mmWaveCommunicaitionSystem.pdf> <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/globalHybridArray.pdf>]
+Underfull \hbox (badness 1383) in paragraph at lines 167--169
 []\OT1/ptm/m/n/10 Note that the multi-paths in-ter-fer-ence pa-ram-e-ter pairs
  []
 
-<figures/dpd-MFspectrum.pdf, id=41, 421.57521pt x 318.01007pt>
+[2] <figures/dpd-MFspectrum.pdf, id=78, 421.57521pt x 318.01007pt>
 File: figures/dpd-MFspectrum.pdf Graphic file (type pdf)
  <use figures/dpd-MFspectrum.pdf>
-Package pdftex.def Info: figures/dpd-MFspectrum.pdf used on input line 220.
+Package pdftex.def Info: figures/dpd-MFspectrum.pdf used on input line 209.
 (pdftex.def)             Requested size: 258.0pt x 194.62152pt.
- <figures/IprVdpd-MFspectrum.pdf, id=42, 421.57521pt x 318.01007pt>
+ <figures/IprVdpd-MFspectrum.pdf, id=79, 421.57521pt x 318.01007pt>
 File: figures/IprVdpd-MFspectrum.pdf Graphic file (type pdf)
  <use figures/IprVdpd-MFspectrum.pdf>
-Package pdftex.def Info: figures/IprVdpd-MFspectrum.pdf used on input line 225.
+Package pdftex.def Info: figures/IprVdpd-MFspectrum.pdf used on input line 215.
 (pdftex.def)             Requested size: 258.0pt x 194.62152pt.
- [2] (c:\Users\hkg20\Documents\Articles\Indoor-Hybrid-DPD\tex\WCL_Byhkg.bbl) [3 <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/IprVdpd-MFspectrum.pdf> <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/dpd-MFspectrum.pdf>] (c:\Users\hkg20\Documents\Articles\Indoor-Hybrid-DPD\tex\WCL_Byhkg.aux) ) 
+ [3 <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/dpd-MFspectrum.pdf> <c:/Users/hkg20/Documents/Articles/Indoor-Hybrid-DPD/tex/figures/IprVdpd-MFspectrum.pdf>] (c:\Users\hkg20\Documents\Articles\Indoor-Hybrid-DPD\tex\WCL_Byhkg.bbl) [4] (c:\Users\hkg20\Documents\Articles\Indoor-Hybrid-DPD\tex\WCL_Byhkg.aux) ) 
 Here is how much of TeX's memory you used:
- 3820 strings out of 495354
- 58575 string characters out of 3182740
- 134662 words of memory out of 3000000
- 6937 multiletter control sequences out of 15000+200000
+ 3833 strings out of 495354
+ 58901 string characters out of 3182740
+ 135662 words of memory out of 3000000
+ 6949 multiletter control sequences out of 15000+200000
  46771 words of font info for 102 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,19n,38p,522b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,19n,38p,2111b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on WCL_Byhkg.pdf (3 pages, 446061 bytes).
+Output written on WCL_Byhkg.pdf (4 pages, 648059 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

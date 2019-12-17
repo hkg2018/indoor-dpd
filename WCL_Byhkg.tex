@@ -53,17 +53,26 @@
 
 \section{Introduction}
 \label{sec:intro}
-\IEEEPARstart{M}{ultiple} \cite{Amar2004Direct} 
+\IEEEPARstart{A}{ccurate} and robust position estimation of a wireless target node device using wireless base stations (BSs) is important in many applications, such as navigation, public safety, law enforcement, rescue operations, traffic management, inventory tracking, home automation and patient monitoring \cite{bialer2016location}. It is efficient and economical to provide position estimation based on the widely deployed wireless communication systems, without the deployment of extra hardware. Orthogonal Frequency Division Multiplexing (OFDM) has many advantages for wireless communication, and therefore is the leading communication method in today’s standards, for example WIFI 802.11 and Long-Term Evolution (LTE) 4G. To the best of our knowledge, most positioning techniques based on wireless communication networks utilize only distance information measured by the Time-of-Arrival (TOA) of the received OFDM signal since the equipments, such as WIFI routers, have poor ability to obtain the received signal Angle-of-Arrival (AOA) for the lack of antennas array. While massive Multiple-Input-Multiple-Output (MIMO) has been widely accepted as an enabling technology for the emerging fifth-generation (5G) communication \cite{wang2014cellular,roh2014millimeter,niu2015survey}, in which the short wavelength of mm-wave allows integrations of large number, i.e., up to hundreds, of miniaturized antennas in limited space, exploiting array gain to compensate for poor radio propagation of mm-wave. However, the physical sizes of Radio Frequency (RF) chains don't shrink as the frequency grows higher\cite{dawn200960}. So, a hybrid antenna array, which consists of phase controllable antenna elements, is of particular interest to massive MIMO \cite{roh2014millimeter}. The hybrid nature and the sheer scale of massive MIMO hinder the use of conventional estimation techniques in antenna domain\cite{zhang2015massive,guo2012hybrid}. The methods to estimate the AOA in beam domain are researched in recent decade.
+
+Therefore, the emerging 5G communication networks can obtain both the TOA of the received OFDM signal and  AOA for positioning. 
 
 
 \section{System model and Problem formulation}
 \label{sec:model and problem}
 \begin{figure}[t]
+  \centerline{\includegraphics[width=0.25\textwidth]{figures/mmWaveCommunicaitionSystem.pdf}}
+  \centering
+\caption{The location system. The UE location is estimated based on the known preamble sequence received by the synchronized BSs.}\label{System}
+\end{figure}
+\cite{Amar2004Direct}
+\begin{figure}[t]
   \centerline{\includegraphics[width=0.5\textwidth]{figures/globalHybridArray.pdf}}
   \centering
 \caption{A two-dimensional planar fully connected hybrid antenna array composed of $N_xN_y$ elements. All antennas are connected to analog phase shifters, one for $M$. All these analog phase shifters are divided into $M$ groups and each group aggregate at an ADC. The outputs of $M$ ADCs are further processed. The RF generation and down-converters are suppressed. }\label{GHA}
 \end{figure}
-We consider a mm-wave massive MIMO communication system as illustrated in fig1, where there are base stations (BS) located at $\left\{\boldsymbol{p}_j\right\}_{j=1}^{N_r}$ (in 2D) and a single-antenna user (UE), located at $\boldsymbol{p}$. Each BS is equipped with a rectangular hybrid array, as shown in \ref{GHA}. There are $N_x\times N_y$ antenna elements on the hybrid array, evenly spaced by half wavelength in two dimensions. These antennas are connected to adjustable phase shifters, one for $M$. All phase shifters are divided into $M$ groups. Every group are connected to all antennas and aggregate at an ADC (For clarity, the RF generation and down-converters are suppressed in the figure.). The vector of values of phase shifters for an ADC is called a codeword $\boldsymbol{c}_m \in \mathbb{C}^{N_xN_y \times 1}$. We can also get the $M$ codewords by Time Division Multiplexing (TDM) for the limitation of hardware cost. The matrix of all codewords are called codebook $\boldsymbol{C}\in \mathbb{C}^{N_xN_y \times M}$. Generally, the codebook can be designed for specific goals. In this paper, we use the standard orthogonal codebook, $\boldsymbol{C}^H\boldsymbol{C}=I_M$.
+
+We consider a mm-wave massive MIMO communication system, where there are base stations (BS) located at $\left\{\boldsymbol{p}_j\right\}_{j=1}^{N_r}$ ($Nr\geq 3$) and a single-antenna user (UE), located at $\boldsymbol{p}$, as illustrated in fig.\ref{System}. Each BS is equipped with a rectangular hybrid array, as shown in fig.\ref{GHA}. There are $N_x\times N_y$ antenna elements on the hybrid array, evenly spaced by half wavelength in two dimensions. These antennas are connected to adjustable phase shifters, one for $M$. All phase shifters are divided into $M$ groups. Every group are connected to all antennas and aggregate at an ADC (For clarity, the RF generation and down-converters are suppressed in the figure.). The vector of values of phase shifters for an ADC is called a codeword $\boldsymbol{c}_m \in \mathbb{C}^{N_xN_y \times 1}$. We can also get the $M$ codewords by Time Division Multiplexing (TDM) for the limitation of hardware cost and space. The matrix of all codewords are called codebook $\boldsymbol{C}\in \mathbb{C}^{N_xN_y \times M}$. Generally, the codebook can be designed for specific goals. In this paper, we use the standard orthogonal codebook, $\boldsymbol{C}^H\boldsymbol{C}=I_M$.
 
 The UE transmitted signal $x(t)$ passes through different paths to each BS. The impulse response of the generalized channel from the UE to the $m$-th ADC of the $j$-th BS can be written as 
 \begin{align}\label{IR}
@@ -196,19 +205,19 @@ The new objective function value will become small as long as one of $\{J_j\}_{j
 \label{sec:experiment}
 In this section, we design several numerical simulations to verify and evaluate the robustness, of the proposed estimators, to the multi-paths interference. The proposed estimator \eqref{dpd-MF} and \eqref{Iprvdpd-MF}, denoted by dpd-MF and Improved dpd-MF respectively, are compared with the traditional two-step position estimators, such as TOA based, AOA based and joint TOA-AOA based estimators. In two step methods, we use the classical MUSIC method to acquire the TOA and AOA MUSIC spectrum respectively, and the minimum TOA parameter and the AOA parameter at the maximum peak of the AOA spectrum are recognized as the parameters of the LOS path. As illustrated in the location spectrum of the dpd-MF (fig3), we consider the 30$\times$30m scenario in which there are $N_r=$3 BSs located at (0,0)m, (30,0)m and (15,30)m. every BS is equipped with a 8$\times$8 rectangular hybrid array and only one ADC. The codebook of 64 codewords is obtained by Time Division Multiplexing. The position estimation is obtained from the long preamble symbol of one packet received from the BSs, which consists of 256 sub-carriers with spacing of 960kHz and total bandwidth of 245.76MHz. The carrier frequency is 30GHz ($\lambda=$10mm). In order to evaluate the influence of parameter spacing between LOS and NLOS paths, the TOA spacing $\Delta\tau_{j,l}\sim U[\Delta\tau_{min},10]$ns and AOA spacing $\Delta\theta_{j,l}\sim U[\Delta\theta_{min},45^\circ]$. The number of paths components $L=$6. Considering the power of the NLOS component is possible to be larger than that of LOS component, we fix the amplitude of the LOS attenuation $\vert\alpha_{j,0}\vert=$1 and set the NLOS attenuation $\vert\alpha_{j,l}\vert\sim U[0.5,1.5]$.
 
-
 \begin{figure}[t]
   \centerline{\includegraphics[width=0.5\textwidth]{figures/dpd-MFspectrum.pdf}}
   \centering
 \caption{the dpd-MF position spectrum, SNR=20dB, $\Delta\tau_{min}=$1ns, $\Delta\theta_{min}=1^\circ$. The hollow pentacles (three kinds of colors) denote the 'Mirror UE' of three BSs respectively, the same bellow.}\label{dpd-MFspectrum}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[b]
   \centerline{\includegraphics[width=0.5\textwidth]{figures/IprVdpd-MFspectrum.pdf}}
   \centering
-\caption{the improved dpd-MF spectrum}\label{IprVdpd-MFspectrum}
+\caption{the improved dpd-MF spectrum,  SNR=20dB, $\Delta\tau_{min}=$1ns, $\Delta\theta_{min}=1^\circ$.}\label{IprVdpd-MFspectrum}
 \end{figure}
 
+The fig.\ref{dpd-MFspectrum} shows the power-position spectrum of the proposed dpd-MF estimator \eqref{dpd-MF}. It can be seen that there occur a false-alarm (FA) power peak at (1,16)m since three 'Mirror UE' of the first BS (red hollow pentacle) gather together. The single 'Mirror UE' with large power also generates a local power peaks, which increases the FA probability and reduce the robustness to the multi-path interference. While those FA power peaks are all suppressed by the improved dpd-MF estimator \eqref{Iprvdpd-MF} using the randomness and the mutual independence of multi-path interference. The fig.\ref{IprVdpd-MFspectrum} shows the improved power position spectrum. It can be seen that there is only one sharpe power peak around the true UE position and the position accuracies of both estimators are close. 
 \section{Conclusion}
 \label{sec:conclusion}
 conclusion

@@ -21,6 +21,44 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{bialer2016location}
+O.~Bialer, D.~Raphaeli, and A.~J. Weiss, ``Location estimation in multipath
+  environments with unsynchronized base stations,'' in \emph{2016 IEEE Sensor
+  Array and Multichannel Signal Processing Workshop (SAM)}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2016, pp. 1--5.
+
+\bibitem{wang2014cellular}
+C.-X. Wang, F.~Haider, X.~Gao, X.-H. You, Y.~Yang, D.~Yuan, H.~M. Aggoune,
+  H.~Haas, S.~Fletcher, and E.~Hepsaydir, ``Cellular architecture and key
+  technologies for 5g wireless communication networks,'' \emph{IEEE
+  communications magazine}, vol.~52, no.~2, pp. 122--130, 2014.
+
+\bibitem{roh2014millimeter}
+W.~Roh, J.-Y. Seol, J.~Park, B.~Lee, J.~Lee, Y.~Kim, J.~Cho, K.~Cheun, and
+  F.~Aryanfar, ``Millimeter-wave beamforming as an enabling technology for 5g
+  cellular communications: Theoretical feasibility and prototype results,''
+  \emph{IEEE communications magazine}, vol.~52, no.~2, pp. 106--113, 2014.
+
+\bibitem{niu2015survey}
+Y.~Niu, Y.~Li, D.~Jin, L.~Su, and A.~V. Vasilakos, ``A survey of millimeter
+  wave communications (mmwave) for 5g: opportunities and challenges,''
+  \emph{Wireless networks}, vol.~21, no.~8, pp. 2657--2676, 2015.
+
+\bibitem{dawn200960}
+D.~Dawn, P.~Sen, S.~Sarkar, B.~Perumana, S.~Pinel, and J.~Laskar, ``60-ghz
+  integrated transmitter development in 90-nm cmos,'' \emph{IEEE Transactions
+  on Microwave Theory and Techniques}, vol.~57, no.~10, pp. 2354--2367, 2009.
+
+\bibitem{zhang2015massive}
+J.~A. Zhang, X.~Huang, V.~Dyadyuk, and Y.~J. Guo, ``Massive hybrid antenna
+  array for millimeter-wave cellular communications,'' \emph{IEEE Wireless
+  Communications}, vol.~22, no.~1, pp. 79--87, 2015.
+
+\bibitem{guo2012hybrid}
+Y.~J. Guo, X.~Huang, and V.~Dyadyuk, ``A hybrid adaptive antenna array for
+  long-range mm-wave communications [antenna applications corner],'' \emph{IEEE
+  Antennas and Propagation Magazine}, vol.~54, no.~2, pp. 271--282, 2012.
+
 \bibitem{Amar2004Direct}
 A.~Amar and A.~J. Weiss, ``Direct position determination of multiple radio
   signals,'' in \emph{IEEE International Conference on Acoustics, Speech, and
